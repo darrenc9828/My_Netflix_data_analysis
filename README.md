@@ -47,7 +47,9 @@ Requiremnets are from the project requirements list from Code Kentucky list of r
 
     Example would be - c:\user\myfolder\destop> python -m venv venv
 
-    Once you create this environment you will need to activate this environment.  To do this you will need to type enironment name\Scripts\activate.bat
+    Once you create this environment you will need to activate this environment.  To do this you will need to type environment name\Scripts\Activate.bat or you may have to use 
+    environment name\Scripts\Activate.ps1
+    
 
     See below if the procedure does not work on your machine.  Sometimes windows have a policy set that will not let you activate the environment on VS code editor. 
 
