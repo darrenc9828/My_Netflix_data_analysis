@@ -30,7 +30,6 @@ Once you have opened the file click "Run All' on the top of the notebook.
 
 ## Requirements
 
-                                 Requirements met for this project:
 Requiremnets are from the project requirements list from Code Kentucky list of requirements for Data analysis part 2:
 
 1. Read in data: Read in two data files. This project consist of two csv files that used the pandas function in the pandas python package to   read the files to create dataframes.
@@ -41,7 +40,7 @@ Requiremnets are from the project requirements list from Code Kentucky list of r
 
 4. Utilize best practices.  I created a virtual environment for my project.  Instructions on how to set a virtual environment are listed below.
 
-## You will need to use your terminal to creat a virtual environment and be sure you have Python 3 or higher installed on your machine.
+## You will need to use your terminal to create a virtual environment and be sure you have Python 3 or higher installed on your machine.
     Creation of virtual environments is done by executing the command venv:
 
     python3 -m venv /path/to/new/virtual/environment
