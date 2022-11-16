@@ -1,7 +1,4 @@
 
-#image.png
-
-
 ## My_Netflix_data_analysis
 Using my Netflix account data that was aquired by submitting a request to Netflix, I will analyze my viewing habits of the household and visualize some of my findings.  This project was very informative in that I was not aware of all the different data that Netflix actually collects from its users.  I have used my viewing activity dataset along with a dataset from Kaggle.com to get movie ratings to compare what ratings have been viewed the most along with several other findings of my data.
 
@@ -31,7 +28,8 @@ From the browser window open "My_Netflix_data_analysis.ipynb",to run the program
 
 Once you have opened the file click "Run All' on the top of the notebook.
 
-##Requirements
+## Requirements
+
                                  Requirements met for this project:
 Requiremnets are from the project requirements list from Code Kentucky list of requirements for Data analysis part 2:
 
@@ -43,7 +41,7 @@ Requiremnets are from the project requirements list from Code Kentucky list of r
 
 4. Utilize best practices.  I created a virtual environment for my project.  Instructions on how to set a virtual environment are listed below.
 
-# You will need to use your terminal to creat a virtual environment and be sure you have Python 3 or higher installed on your machine.
+## You will need to use your terminal to creat a virtual environment and be sure you have Python 3 or higher installed on your machine.
     Creation of virtual environments is done by executing the command venv:
 
     python3 -m venv /path/to/new/virtual/environment
