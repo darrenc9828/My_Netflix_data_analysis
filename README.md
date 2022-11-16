@@ -1,22 +1,29 @@
+
+#image.png
+
+
 ## My_Netflix_data_analysis
-Using my Netflix account data I will analyze my viewing habits of the household and visualize some of my findings.
+Using my Netflix account data that was aquired by submitting a request to Netflix, I will analyze my viewing habits of the household and visualize some of my findings.  This project was very informative in that I was not aware of all the different data that Netflix actually collects from its users.  I have used my viewing activity dataset along with a dataset from Kaggle.com to get movie ratings to compare what ratings have been viewed the most along with several other findings of my data.
 
 
 
- This project is an ongoing learning project that will be built on as I learn different things using pandas and other libraries installed.
+# Getting the Program to Run:
 
-Getting the Program to Run:
 Confirm that a version of Python 3 has been installed on your local machine
 
 Use Git Bash and navigate to where you would like the cloned repository using CD'command(the desired path)
 
-Clone the repo from github.
+Clone the repo from github.  git clone https://github.com/darrenc9828/My_Netflix_data_analysis
 
-To make sure you have all necessary packages to run the program you will need to read the requirments.txt file in the repo.
+I used VS code for this project with Jupyter Notebook extensions installed along with a virtual environment.  To install and run a virtual environment please see the bottom of this README file.  Once you created the virtual environment please install the necessary requirements for this project by using the below command in you terminal
 
-Once repo is cloned, use File Explorer or command promt to navigate to the directory folder that contains the repo.
+pip intall -r requirements.txt
 
-Once you have navigated to the folder, from the file path line type "cmd" to bring up the command prompt in that directory.
+Once this setup is complete open the Jupyter Notebook file: My_Netflix_data_analysis.ipynb
+
+You could also run the file above in Jupyter Notebook:
+
+Navigated to the folder, from the file path line type "cmd" to bring up the command prompt in that directory.
 
 From the command line, run "jupyter notebook", this will open a browser window.
 
@@ -36,7 +43,18 @@ Requiremnets are from the project requirements list from Code Kentucky list of r
 
 4. Utilize best practices.  I created a virtual environment for my project.  Instructions on how to set a virtual environment are listed below.
 
-    Activiating a virtual environment in windows using VS code you will need to Run powershell in administrator and copy and paste this command: set-executionpolicy remotesigned ; then agree to the message.  Finally, Run your_virtualenv_name\Scripts\activiate.ps1
+# You will need to use your terminal to creat a virtual environment and be sure you have Python 3 or higher installed on your machine.
+    Creation of virtual environments is done by executing the command venv:
+
+    python3 -m venv /path/to/new/virtual/environment
+
+    Example would be - c:\user\myfolder\destop> python -m venv venv
+
+    Once you create this environment you will need to activate this environment.  To do this you will need to type enironment name\Scripts\activate.bat
+
+    See below if the procedure does not work on your machine.  Sometimes windows have a policy set that will not let you activate the environment on VS code editor. 
+
+    Activiating a virtual environment in windows using VS code you will need to Run powershell in administrator mode and copy and paste this command: set-executionpolicy remotesigned ; then agree to the message.  Finally, Run your_virtualenv_name\Scripts\activiate.ps1
 
 5. Interpretation of the data. I have used markdown cells in Jupyter Notebook to do this interpretation of my code and data.
 
