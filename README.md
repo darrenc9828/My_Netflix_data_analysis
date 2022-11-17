@@ -20,7 +20,7 @@ Once this setup is complete open the Jupyter Notebook file: My_Netflix_data_anal
 
 You could also run the file above in Jupyter Notebook:
 
-Navigated to the folder, from the file path line type "cmd" to bring up the command prompt in that directory.
+Navigate to the command promt. 
 
 From the command line, run "jupyter notebook", this will open a browser window.
 
