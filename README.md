@@ -34,7 +34,7 @@ Requiremnets are from the project requirements list from Code Kentucky list of r
 
 1. Read in data: Read in two data files. This project consist of two csv files that used the pandas function in the pandas python package to   read the files to create dataframes.
 
-2. Manipulated and cleaned the data: Used in built-pandas and numpy functions to remove such things as NAN values in the data. Also used other pandas functions to manipulate the data to provide new values and renaming of columns and merged the dataframes later in the project to get other data in one datafrmae table.
+2. Manipulated and cleaned the data: Used built-pandas and numpy functions to remove such things as NAN values in the data. Also used other pandas functions to manipulate the data to provide new values such as renaming of columns and merged the dataframes later in the project to get other data into one datafrmae table.
 
 3. Visulize/Present the data: Make at least 3 visualizations. I use matplotlib and seaborn libraries to do these visulalizations. 
 
@@ -55,6 +55,6 @@ Requiremnets are from the project requirements list from Code Kentucky list of r
 
     Activiating a virtual environment in windows using VS code you will need to Run powershell in administrator mode and copy and paste this command: set-executionpolicy remotesigned ; then agree to the message.  Finally, Run your_virtualenv_name\Scripts\activiate.ps1
 
-5. Interpretation of the data. I have used markdown cells in Jupyter Notebook to do this interpretation of my code and data.
+5. Interpretation of the data. I have used markdown cells in Jupyter Notebook to do this interpretation of my code.
 
 All work in this repo has been done by the owner Darren Caldwell 
